@@ -59,7 +59,7 @@ Dart supports a variety of data types including numbers, strings, booleans, list
 | bool    | Declares a boolean variable               | `bool isStudent = true;`    |
 
 #### Declaring and Using Variables
-
+`dart`
 ```
 void main() {
   // Declare a variable without specifying the type (type inference).
