@@ -60,7 +60,7 @@ Dart supports a variety of data types including numbers, strings, booleans, list
 
 #### Declaring and Using Variables
 
-```dart
+```
 void main() {
   // Declare a variable without specifying the type (type inference).
   var name = 'John';  
@@ -80,12 +80,13 @@ void main() {
   print('City: $city');
   print('Is Student: $isStudent');
 } 
-
+```
 ## Functions
 Functions are blocks of code that perform a specific task. They can take parameters and return values.
 
 ### Function Declaration and Use
 
+```
 // Define a function that takes a string parameter and returns a string.
 String greet(String name) {
   return 'Hello, $name';
@@ -95,6 +96,7 @@ void main() {
   // Call the greet function and print its return value.
   print(greet('Alice'));  // Outputs: Hello, Alice
 }
+ ```
 
 **Explanation:**
 - `String greet(String name)`: This line defines a function named `greet` that takes a `String` parameter named `name` and returns a `String`.
@@ -105,7 +107,7 @@ void main() {
 Dart supports standard control flow statements such as if-else, switch, for loops, while loops, and do-while loops.
 
 ### If-Else Statement
-
+```
 void main() {
   int age = 20;
   if (age >= 18) {
@@ -114,7 +116,7 @@ void main() {
     print('You are a minor.');
   }
 }
-
+```
 **Explanation:**
 - `if (age >= 18)`: Checks if the value of `age` is 18 or greater.
 - `print('You are an adult.');`: If the condition is true, this statement is executed.
@@ -122,13 +124,13 @@ void main() {
 - `print('You are a minor.');`: This statement is executed if the condition is false.
 
 ### For Loop
-
+```
 void main() {
   for (int i = 0; i < 5; i++) {
     print('i = $i');
   }
 }
-
+```
 **Explanation:**
 - `for (int i = 0; i < 5; i++)`: Initializes a variable `i` to 0, checks if `i` is less than 5, and increments `i` by 1 after each iteration.
 - `print('i = $i');`: Prints the value of `i` during each iteration of the loop.
@@ -138,28 +140,28 @@ Dart provides various collections such as lists, sets, and maps to store and man
 
 ### List
 A list is an ordered collection of items.
-
+```
 void main() {
   // Define a list of strings.
   List<String> fruits = ['Apple', 'Banana', 'Orange'];
   // Print the first item in the list.
   print(fruits[0]);  // Outputs: Apple
 }
-
+```
 **Explanation:**
 - `List<String> fruits = ['Apple', 'Banana', 'Orange'];`: Defines a list of strings named `fruits`.
 - `print(fruits[0]);`: Prints the first item in the list, which is Apple.
 
 ### Map
 A map is a collection of key-value pairs.
-
+```
 void main() {
   // Define a map with string keys and integer values.
   Map<String, int> scores = {'Alice': 90, 'Bob': 85};
   // Print the value associated with the key 'Alice'.
   print(scores['Alice']);  // Outputs: 90
 }
-
+```
 **Explanation:**
 - `Map<String, int> scores = {'Alice': 90, 'Bob': 85};`: Defines a map with string keys and integer values named `scores`.
 - `print(scores['Alice']);`: Prints the value associated with the key 'Alice', which is 90.
@@ -170,7 +172,7 @@ void main() {
 A class is a blueprint for creating objects. An object is an instance of a class.
 
 #### Defining a Class
-
+```
 class Person {
   String name;
   int age;
@@ -190,7 +192,7 @@ void main() {
   // Call the displayInfo method on the person object.
   person.displayInfo();  // Outputs: Name: Alice, Age: 30
 }
-
+```
 **Explanation:**
 - `class Person { ... }`: Defines a class named `Person`.
 - `String name; int age;`: Declares instance variables `name` and `age`.
@@ -203,7 +205,7 @@ void main() {
 Instance variables are variables that are declared inside a class and belong to an instance of the class.
 
 #### Example
-
+```
 class Car {
   String model;
   int year;
@@ -218,7 +220,7 @@ void main() {
   // Print the model and year of the car.
   print('Model: ${myCar.model}, Year: ${myCar.year}');
 }
-
+```
 **Explanation:**
 - `class Car { ... }`: Defines a class named `Car`.
 - `String model; int year;`: Declares instance variables `model` and `year`.
@@ -230,7 +232,7 @@ void main() {
 Reference variables hold the reference (or address) of the object, not the actual object itself.
 
 #### Example
-
+```
 class Book {
   String title;
 
@@ -251,7 +253,7 @@ void main() {
   print(book1.title);  // Outputs: Animal Farm
   print(book2.title);  // Outputs: Animal Farm
 }
-
+```
 **Explanation:**
 - `class Book { ... }`: Defines a class named `Book`.
 - `String title;`: Declares an instance variable `title`.
