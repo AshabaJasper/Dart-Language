@@ -11,7 +11,7 @@ Welcome to your Dart learning repository! This repository is designed to help yo
 5. [Project Ideas](#project-ideas)
 
 ## Lessons Breakdown
-
+ 
 ### Lesson 1: Introduction to Dart and Basics
 **Topics Covered:**
 - Overview of Dart
