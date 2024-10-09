@@ -1,7 +1,7 @@
  # Learning Dart Language    
 ## Introduction
 Welcome to your Dart learning repository! This repository is designed to help you master the Dart language, focusing on its core concepts and practical applications. The learning plan is divided into four detailed lessons, each covering essential aspects of Dart programming. Additionally, five project ideas are provided to apply what you learn in real-world scenarios.
-         
+          
 ## Table of Contents
 1. [Lesson 1: Introduction to Dart and Basics](#lesson-1-introduction-to-dart-and-basics)
 2. [Lesson 2: Advanced Dart Concepts](#lesson-2-advanced-dart-concepts)
