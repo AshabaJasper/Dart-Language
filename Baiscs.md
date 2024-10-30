@@ -267,3 +267,4 @@ void main() {
 ## Conclusion
 In this class, we covered the basics of the Dart language, including variables, data types, functions, control flow statements, and collections. We also introduced the concepts of classes, objects, instance variables, and reference variables. You can use DartPad for practicing these concepts or set up an IDE like VS Code or IntelliJ IDEA for a more integrated development environment. Next, we will dive deeper into setting up Android Studio for Flutter development and explore more advanced topics.
 
+ 
